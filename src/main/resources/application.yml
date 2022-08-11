@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    defer-datasource-initialization: true
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+jwt:
+  secret-key: djanuwhe89hwaoiehnwoiheeqwejqoieq
+  expiration-time: 15 #minutes
